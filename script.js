@@ -11,7 +11,7 @@ window.onload = function() {
         const minutes = Math.floor((elapsedTime % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((elapsedTime % (1000 * 60)) / 1000);
 
-        counterElement.innerHTML = `${days} Gün <br> ${hours} Saat <br> ${minutes} Dakika <br> ${seconds} Saniye <br>`;
+        counterElement.innerHTML = `${days} <p>Gün</p> <br> ${hours} <p>Saat</p> <br> ${minutes} <p>Dakika</p> <br> ${seconds} <p>Saniye</p> <br>`;
     }
 
     setInterval(updateCounter, 1000);
