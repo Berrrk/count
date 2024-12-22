@@ -9,5 +9,6 @@
 .counter {
     font-size: 3rem;
     font-weight: bold;
-    color: #efedde;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: #000000;
 }
