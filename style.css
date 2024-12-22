@@ -1,0 +1,13 @@
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.counter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+}
