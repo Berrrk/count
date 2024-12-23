@@ -1,13 +1,20 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .counter-container {
-    display: flex;
+    margin-top: 1rem;
+    color: white;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #000000;
+}
+
+.s{
+    text-shadow: rgb(57, 58, 57) 0px 0px 30px;
+    color: #7b7b7b;
+    z-index: 10;
 }
 
 .counter {
