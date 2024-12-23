@@ -1,14 +1,18 @@
+body {
+    background-color: black;
+}
+
 .counter-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #efedde;
+    background-color: #000000;
 }
 
 .counter {
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-    color: #000000;
+    color: #ffffff;
 }
