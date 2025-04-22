@@ -1,5 +1,5 @@
 window.onload = function() {
-    const startDate = new Date('April 22, 2025 02:21'); // Başlangıç tarihi
+    const startDate = new Date('April 22, 2025 21:21'); // Başlangıç tarihi
     const counterElement = document.getElementById('counter');
 
     function updateCounter() {
