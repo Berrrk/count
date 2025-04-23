@@ -8,18 +8,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000000;
+    background-color: #ffffff;
+    height: min-content;
+    border-radius: 15px;
 }
 
 .s{
-    text-shadow: rgb(57, 58, 57) 0px 0px 30px;
-    color: #7b7b7b;
+    color: #ffffff;
     z-index: 10;
 }
 
 .counter {
-    font-size: 1rem;
+    font-size: 5rem;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-    color: #ffffff;
+    color: #000000;
 }
